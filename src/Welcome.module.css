@@ -1,0 +1,16 @@
+/* Welcome.module.css */
+.welcomeMessage {
+    font-size: 24px;
+    color: rgba(255, 0, 0, 0.704); /* A calming blue color */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* A clean, modern font */
+    margin: 20px;
+    padding: 15px;
+    background-color: #f2f2f2; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s; /* Smooth scaling effect on hover */
+}
+
+.welcomeMessage:hover {
+    transform: scale(1.05); /* Slightly enlarge the element on hover */
+}
